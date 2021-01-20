@@ -1,13 +1,57 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.cable{
+    display: flex;
+    justify-self: center;
+    width:10px;
+    height: 100px;
+    background-color: black;
+}
 
-*/
+.luces{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:75px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.red {
+    border-radius: 50%;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    opacity: 0.5;
+    transition: opacity 1000ms linear;
+}
+
+.yellow {
+    border-radius: 50%;
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    opacity: 0.5;
+    transition: opacity 1000ms linear;
+}
+
+.green {
+    border-radius: 50%;
+    background-color:limegreen;
+    width: 60px;
+    height: 60px;
+    opacity: 0.5;
+    transition: opacity 1000ms linear;
+}
+
+.lightON{
+    opacity: 1;
+}
